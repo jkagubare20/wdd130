@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', serif;
     max-width: 1200px;
     margin: 0 auto;
     color: var(--text-color);
