@@ -41,12 +41,15 @@ h2 {
 
 }
 
-.contact {
+.contact1, .contact2, .map {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-content: center;
 }
 
+.info {
+    text-align: center;
+}
 
 .navbar {
     display: flex;
@@ -144,3 +147,25 @@ footer a img {
     height: 50px;
 }
 
+.employee-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 9%;
+}
+
+.employee-grid img {
+    width: 60%;
+    height: auto;
+    display: grid;
+
+}
+
+form {
+    width: 50%;
+    margin: 3rem auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background: #eee;
+    display: grid;
+}
