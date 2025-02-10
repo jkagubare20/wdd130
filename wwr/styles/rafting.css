@@ -156,8 +156,9 @@ form {
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
     border-radius: 0.5rem;
-    background: #6e1616;
-    display: grid;
+    background: #f0f0f0;
+
+
 }
 
 .contact1, .contact2 {
@@ -173,8 +174,7 @@ form {
     align-content: center;
     width: 40em;
     height: 5em;
-    margin: 10px 280px;
-    border-radius: 30px 30px;
+    margin-left: 276px;
 }
 
 .info {
@@ -196,5 +196,22 @@ form {
 }
 
 label, legend {
-    color:#f0f0f0
+    color:var(--secondary-color);
+}
+
+input {
+    margin-bottom: 0.9rem;
+}
+
+button {
+    padding: 0.5rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0A2472;
 }
