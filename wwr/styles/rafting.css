@@ -87,8 +87,7 @@ h2 {
     top: 20px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    padding-left: 40%;
-    padding-right: 40%;
+    padding-inline: 40%;
     text-align: center;
 
 }
@@ -138,13 +137,13 @@ footer a img {
 }
 
 .employee-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
 
 .employee-grid img {
-    width: 60%;
+    width: 150px;
     height: auto;
     display: grid;
 
@@ -152,8 +151,8 @@ footer a img {
 
 form {
     width: 60%;
-    margin: 3rem auto;
-    padding: 1rem;
+    margin: 1rem auto;
+    padding: 0.5rem;
     border: 1px solid rgb(0 0 0 / 0.1);
     border-radius: 0.5rem;
     background: #f0f0f0;
@@ -161,20 +160,10 @@ form {
 
 }
 
-.contact1, .contact2 {
+.contact2 {
     display: flex;
     justify-content: center;
     align-content: center;
-   
-}
-
-.contact1 {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 40em;
-    height: 5em;
-    margin-left: 276px;
 }
 
 .info {
@@ -193,6 +182,9 @@ form {
     display: flex;
     justify-content: center;
     align-content: center;
+    padding-inline: 20%;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 label, legend {
@@ -216,4 +208,3 @@ button:hover {
     background-color: #0A2472;
 }
 
-/* a centered h2 element*/
