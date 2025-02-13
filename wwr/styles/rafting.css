@@ -216,6 +216,7 @@ button:hover {
     color: rgb(12, 9, 9);
     padding-inline: 20%;
     text-align: center;
+    background-color: rgb(0 0 0 / 0.5);
 }
 
 .index-hero img {
@@ -236,13 +237,12 @@ button:hover {
 
 .sec1-grid img {
     width: 300px;
-    width: 100%;
 }
 
 .signup-container {
     font-family: 'Poppins';
     max-width: 400px;
-    margin: 40px auto;
+    margin: 1px auto;
     padding: 15px;
     border-radius: 8px;
     background-color: white;
@@ -310,16 +310,17 @@ button:hover {
      display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--accent1-color);
+    background-color: darkgoldenrod;
     font-family: 'Poppins';
     width: 200px;
     height: 80px;
+    margin-top: 10px;
     margin-inline: 40%;
     border-radius: 8px;
 }
 
 .cta-container a {
     text-decoration: none;
-    color: whitesmoke;
+    color: var(--text-color);
 }
         
