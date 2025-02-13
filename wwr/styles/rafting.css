@@ -132,6 +132,7 @@ footer {
 }
 
 footer a img {
+    align-items: end;
     width: 50px;
     height: 50px;
 }
@@ -149,13 +150,13 @@ footer a img {
 
 }
 
-form {
+.contact-form {
     width: 60%;
     margin: 1rem auto;
     padding: 0.5rem;
     border: 1px solid rgb(0 0 0 / 0.1);
     border-radius: 0.5rem;
-    background: #f0f0f0;
+    background: #f0f0f0f0;
 
 
 }
@@ -208,3 +209,117 @@ button:hover {
     background-color: #0A2472;
 }
 
+.index-hero h1{
+    position: absolute;
+    top: 18rem;
+    font-size: 60px;
+    color: rgb(12, 9, 9);
+    padding-inline: 20%;
+    text-align: center;
+}
+
+.index-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.index-section {
+    padding: 5rem;
+}
+
+.sec1-grid {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.sec1-grid img {
+    width: 300px;
+    width: 100%;
+}
+
+.signup-container {
+    font-family: 'Poppins';
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.signup-title {
+    color: #1a1a1a;
+    font-size: 24px;
+    padding: 2px;
+    margin: 0 0 8px 0;
+}
+
+.signup-description {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-input {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.submit-button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: darkgreen;
+}
+
+
+.cta-container {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent1-color);
+    font-family: 'Poppins';
+    width: 200px;
+    height: 80px;
+    margin-inline: 40%;
+    border-radius: 8px;
+}
+
+.cta-container a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+        
