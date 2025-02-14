@@ -125,7 +125,7 @@ footer {
     text-align: center;
     color: black;
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 1fr auto;
     align-items: center;
     padding: 1rem;
     
@@ -307,6 +307,7 @@ button:hover {
 
 
 .cta-container {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -315,7 +316,7 @@ button:hover {
     width: 200px;
     height: 80px;
     margin-top: 10px;
-    margin-inline: 40%;
+    margin:auto;
     border-radius: 8px;
 }
 
@@ -324,12 +325,42 @@ button:hover {
     color: var(--text-color);
 }
 
+.trip-p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 150px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.trip-cta {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    font-family: 'Poppins';
+    width: 400px;
+    margin: auto;
+    height: 80px;
+
+    margin-top: 10px;
+
+    border-radius: 4px;
+}
+
+.trip-cta a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+}
 
 .card-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .card {
@@ -361,9 +392,44 @@ button:hover {
 .card-content .btn {
     display: inline-block;
     padding: 8px 16px;
-    background-color: #333;
+    background-color: var(--secondary-color);
     text-decoration: none;
     border-radius: 4px;
     margin-top: 16px;
     color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+  
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+.trip-head {
+    background-color: var(--accent2-color);
+}
+  
+th, td {
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+  
+td:last-of-type {
+    text-align: center;
+}
+  
+.trip-body > tr:nth-of-type(even) {
+    background-color: #f0f0f0;
+}
+
+.trip-wireframe {
+
 }
