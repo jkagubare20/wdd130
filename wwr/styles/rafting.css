@@ -29,7 +29,7 @@ nav a {
 }
 
 h1 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     color: var(--text-color);
     
 }
@@ -310,7 +310,7 @@ footer a img {
     justify-content: center;
     align-items: center;
     background-color: darkgoldenrod;
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     width: 200px;
     height: 80px;
     margin-top: 10px;
@@ -338,7 +338,7 @@ footer a img {
     justify-content: center;
     align-items: center;
     background-color: var(--secondary-color);
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     width: 400px;
     margin: auto;
     height: 80px;
