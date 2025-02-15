@@ -30,11 +30,11 @@ nav a {
 
 h1 {
     font-family: 'Poppins';
-    color: var(--primary-color);
+    color: var(--text-color);
     
 }
 
-h2 {
+.about-history, .about-adventure, .contact-meet, .signup-title, .index-adventure, .contact-form-head {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -125,8 +125,8 @@ footer {
     text-align: center;
     color: black;
     display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
+    grid-template-columns: 1fr auto;
+    align-items: flex-end;
     padding: 1rem;
     
 }
@@ -175,8 +175,13 @@ footer a img {
 }
 
 .one {
-    margin-top: auto;
-    margin-bottom: auto;
+    position: relative;
+    margin: auto;   
+    text-align: start; 
+}
+
+.contact-meet, .contact-form-head {
+    font-size: 32px;
 }
 
 .contact11 {
@@ -344,9 +349,7 @@ button:hover {
     width: 400px;
     margin: auto;
     height: 80px;
-
     margin-top: 10px;
-
     border-radius: 4px;
 }
 
@@ -430,6 +433,13 @@ td:last-of-type {
     background-color: #f0f0f0;
 }
 
-.trip-wireframe {
+.trips-footer {
 
+    text-align: center;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    align-items: flex-end;
+    padding: 1rem;
+        
 }
