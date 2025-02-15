@@ -332,27 +332,9 @@ footer a img {
     margin-top: 100px;
 }
 
-.trip-cta-hero p {
-    position: absolute;
-    top: 40%;
-    right: 10%;
-    left: 10%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    text-align: center;
-}
-
-.trip-cta-hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 .trip-cta {
-    position: absolute;
-    top: 75%;
-    margin-left:25rem;
+    position: relative;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
